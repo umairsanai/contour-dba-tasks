@@ -1,1 +1,0 @@
-CREATE INDEX IF NOT EXISTS idx_students_gpa ON students (gpa DESC);
