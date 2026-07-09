@@ -1,0 +1,5 @@
+ log_id | table_name | action | user_id  |                        log_message                            |         created_at         
+--------+------------+--------+----------+------------------------------------------------------------+----------------------------
+    2   | students   | DELETE | 56400248 | WARNING: All data for user Umair Anwar (ID: 56400248) is lost | 2026-07-09 19:57:24.846983
+    1   | students   | INSERT | 56400248 | User created: Umair Anwar                                     | 2026-07-09 19:57:24.845021
+(2 rows)
