@@ -1,0 +1,11 @@
+Users table stores all the users.
+
+Pockets table is related through (1:M) to the users, and this table stores (one or more) pockets of a user.
+
+A user will must have atleast one pocket i.e. 'Main' Pocket.
+
+An Enum 'COLOR_TYPE' is to hold the colors for each pocket, which helps in keeping the styling and theme for a user consistent and persistent by using it in the Database
+
+Transactions table contains the transactions of a User. It's also related by (1:M) to th user, i.e. 1 User can have multiple transactions.
+
+Notifications table contains the notifications of a User. It may be a different or inefficient approach than common strategies used in development, but I wanted implement notifications myself, so i came up with this approach i.e. To store the notifications in the database and relate them with the user. It's also related to user through 1:M relationship.
